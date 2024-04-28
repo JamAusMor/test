@@ -8,9 +8,7 @@ public class Account {
 	private String name;
 	
 	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
+	 
 	public void mergeAccount(Account a) {
 		if(this.getName().equals(a.getName())) {
 			this.balance += a.getBalance();
